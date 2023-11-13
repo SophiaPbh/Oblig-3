@@ -46,9 +46,9 @@ header img {
     flex-wrap: wrap;
     text-decoration:none;
     font-weight:bold;
-    font-size:95px;
-    background-color:#9ff9a8;
-    color:#01af66;
+    font-size:75px;
+    background-color:#1e6230;
+    color:#fff;
     padding: 1rem;
     margin:1rem;
     justify-content:center;
@@ -74,8 +74,8 @@ header img {
     flex-wrap: wrap;
     text-decoration:none;
     font-weight:bold;
-    font-size:25px;
-    background-color:#94987c;
+    font-size:20px;
+    background-color:#464a3a;
     color:#fff;
     padding: 1rem;
     margin:1rem;
@@ -147,7 +147,7 @@ h2{
 
 p{
     text-decoration:none;
-    font-size:30px;
+    font-size:20px;
     font-weight:bolder;
     padding:1rem;
     margin:1rem;
@@ -281,6 +281,29 @@ p{
         margin:auto;
         justify-content:center;
     }
+
+    table {
+        display:flex;
+        font-family: arial, sans-serif;
+        font-size:5px;
+        border-collapse: collapse;
+        width: 100%;
+        justify-content:flex-end;
+        padding:7rem;
+        margin:1rem;
+      }
+      
+      td, th {
+        border: 1px solid #000;
+        text-align: center;
+        justify-content:flex-end;
+        padding: 0;
+        margin:1rem;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #01af66;
+      }
 
     footer {
         grid-area:footer;
