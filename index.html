@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sophia">
+    <meta name="description" content="Skobehag har tilbud barnesko og vintersko for barn med logo og egendefinert farge uten gnagsår">
+    <meta property="og:title" content="Tøfler fra Pixabay av Luisella Planeta LOVE PEACE på min nettside Skobehag">
+    <meta property="og:url" content="https://schema.org/AggregateRating">
+    <meta property="og:description" content="Bilde fra Pixabay av Luisella Planeta LOVE PEACE av tøfler på nettsiden min Skobehag">
+    <meta property="og:image" content="https://pixabay.com/photos/slippers-goodnight-child-guy-read-3845494/">
     <link rel='stylesheet' media='screen and (min-width:701px) and (max-width:900px)' href='css/medium.css'/>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
     <link href="/css/fontawesome-free-6.4.2-web/css/fontawesome.css" rel="stylesheet">
     <link href="/css/fontawesome-free-6.4.2-web/css/brands.css" rel="stylesheet">
     <link href="/css/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Skobehag</title>
+    <title>Skobehag - skotilbud farge og logo</title>
 </head>
 <body>
 <div id="grid-container">
@@ -17,8 +23,10 @@
         <nav>
             <a href="index.html" class="logo">Skobehag</a>
             <img src="img/fontawesome-free-6.4.2-web/cart-shopping-solid.svg" alt="handlekurv">
+            <button aria-label="trykk for å komme til produktsiden">
             <a href="produkt.html" id="read-more-btn">Trykk for å søke etter produkter</a>
-            <img src="img/fontawesome-free-6.4.2-web/magnifying-glass-solid.svg" alt="et søkeikon du kan trykke på for å se produktsiden">
+        </button>
+            <img src="img/fontawesome-free-6.4.2-web/magnifying-glass-solid.svg" alt="søkeikon">
             <a href="produkt.html" class="returogleveranse">Til produktsiden</a>
             <a href="returogleveranse.html" class="returogleveranse">Til retur og leveransesiden</a>
             <a href="analyse.html" class="returogleveranse">Til analysesiden</a>
@@ -34,11 +42,60 @@
                 <li><a href="produkt.html" class="tofler">Tøfler</a></li>
             </ul>
         </nav>
+        <main itemscope itemtype="https://schema.org/Product">
+            <nav id="breadcrumbs">
+                <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="produkt.html"> 
+                            <span itemprop="name">Vintersko </span>
+                        </a>
+                        <meta itemprop="position" content="1">
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="produkt.html">
+                            <span itemprop="name">Vårsko</span>  
+                        </a>
+                        <meta itemprop="position" content="2">
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="produkt.html">
+                            <span itemprop="name">Sommersko </span>
+                        </a>
+                        <meta itemprop="position" content="3">
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="produkt.html">
+                            <span itemprop="name">Høstsko </span>
+                        </a>
+                        <meta itemprop="position" content="4">
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="produkt.html">
+                            <span itemprop="name">Støvler </span>
+                        </a>
+                        <meta itemprop="position" content="5">
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="produkt.html">
+                            <span itemprop="name">Joggesko </span>
+                        </a>
+                        <meta itemprop="position" content="6">
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="produkt.html">
+                            <span itemprop="name">Tøfler </span>
+                        </a>
+                        <meta itemprop="position" content="7">
+                    </li>
+                </ul>
+            </nav>
     </header>
     <main>
         <h1>Skotilbud</h1>
         <section class="flex-section">
-            <a href="produkt.html" class="black-btn">Egendefinert farge og logo og få på sine sko</a>
+            <button aria-label="trykk for å komme til produktsiden">
+            <a href="produkt.html" class="black-btn">Egen farge og logo på sine sko</a>
+        </button>
             <picture>
                 <source media="(min-width:900px)" srcset="img/footwear-1837170_1280.jpg">
                 <source media="(min-width:375px)" srcset="img/footwear-1837170_1280.jpg">
@@ -49,7 +106,9 @@
                 <h2>Joggy joggesko</h2>
                 <p>Skotype: Joggesko, Skomerke: ENCAP, Pris: 349,-, Skostørrelser tilgjengelig 25-45, Kjønn: Dame/Herre</p>
             </article>
+            <button aria-label="trykk for å komme til produktsiden">
             <a href="produkt.html" class="black-btn">Sko for å få gnagsårfrie føtter</a>
+        </button>
             <picture>
                 <source media="(min-width:900px)" srcset="img/winter-boots-3846915_1280.jpg">
                 <source media="(min-width:375px)" srcset="img/winter-boots-3846915_1280.jpg">
